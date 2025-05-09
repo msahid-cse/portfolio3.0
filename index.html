@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahid | Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <span class="theme-ball"></span>
+        </label>
+    </div>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">Your<span>Name</span></div>
+            <div class="sidebar-close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user-astronaut"></i> About</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+            <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+            <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-codepen"></i></a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Navbar -->
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo">MD. <span>SAHID</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="sidebar-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="glitch" data-text=" ">Hello, I'm <span>SAHID</span></h1>
+                    <p class="typewriter">I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/profile.png" alt="Your Name" class="floating">
+                </div>
+            </div>
+            <div class="particles" id="particles-js"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="assets/images/main_profile.png" alt="About Me">
+                        <div class="tech-stack">
+                            <div class="tech-icon"><i class="fab fa-html5"></i></div>
+                            <div class="tech-icon"><i class="fab fa-css3-alt"></i></div>
+                            <div class="tech-icon"><i class="fab fa-js"></i></div>
+                            <div class="tech-icon"><i class="fab fa-react"></i></div>
+                            <div class="tech-icon"><i class="fab fa-node-js"></i></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Who am I?</h3>
+                        <p>I'm a passionate developer with a love for creating futuristic and innovative digital experiences. My journey in tech began with a curiosity about how things work, which evolved into a career building cutting-edge web applications.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or experimenting with creative coding. I believe in continuous learning and pushing the boundaries of what's possible with technology.</p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <span>Name:</span>
+                                <p>MD. SAHID</p>
+                            </div>
+                            <div class="detail-item">
+                                <span>Email:</span>
+                                <p>msahid.cse@gmail.com</p>
+                            </div>
+                            <div class="detail-item">
+                                <span>From:</span>
+                                <p>Dhaka, Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & <span>Experience</span></h2>
+                <div class="skills-content">
+                    <div class="skills-technical">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-bars">
+                            <div class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-line html"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-line css"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-line js"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>React</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress-line react"><span></span></div>
+                            </div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>Node.js</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-line node"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-experience">
+                        <h3>Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">Present</div>
+                                <div class="timeline-content">
+                                    <h4>------</h4>
+                                    <p>-------</p>
+                                    <p>Currently I have no work experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="app">App</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                    <button class="filter-btn" data-filter="other">Other</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2QP_O5kQpqZr652AWybslBm4zwVHns-Eltw&s" alt="Path2Pro">
+                            <div class="project-links">
+                                <a href="https://github.com/msahid-cse/EduHub2.0" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/msahid-cse/EduHub2.0" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Path2Pro: Academic and Skill Development Platform </h3>
+                            <p>A responsive Academic and Skill Development Platform with user and admin dashboard.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Tailwind CSS</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <img src="https://www.jobgpt.de/wp-content/uploads/2023/02/jobgptlogo2.png" alt="job gpt">
+                            <div class="project-links">
+                                <a href="https://github.com/msahid-cse/JobGPT_AI-Powered-Job-CV-Matcher-with-Chatbot" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/msahid-cse/JobGPT_AI-Powered-Job-CV-Matcher-with-Chatbot" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>JobGPT: AI Powered Job CV Matcher with Chatbot</h3>
+                            <p>Job search by CV, easily find your job.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Tailwind</span>
+                                <span>Node.js</span>
+                                <span>Python</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1024" alt="weather app">
+                            <div class="project-links">
+                                <a href="https://github.com/msahid-cse/Weather-App" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/msahid-cse/Weather-App" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>A simple weather app that provides real-time weather updates and forecasts using API.</p>
+                            <div class="project-tech">
+                                <span>Django</span>
+                                <span>Weather API</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://kinsta.com/wp-content/uploads/2023/07/what-is-encryption.jpg" alt="ToolKit-for-Encryption-and-Conversion-using-Java-swing ">
+                            <div class="project-links">
+                                <a href="https://github.com/msahid-cse/ToolKit-for-Encryption-and-Conversion-using-Java-swing" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/msahid-cse/ToolKit-for-Encryption-and-Conversion-using-Java-swing" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>ToolKit for Encryption and Conversion</h3>
+                            <p>ToolKit for Encryption and Conversion using Java swing. Where user can Encrypt or Conversion any Type of Data</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Java swing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.prismic.io/vicwebsite2019/6ff3bda7-a7bc-458f-b9ad-10e8e82ae81a_distance-tolling-tt-teaser-1920x1280.jpg?auto=compress,format&rect=0,0,1920,1280&w=1296&h=864" alt="smart toll system">
+                            <div class="project-links">
+                                <a href="https://github.com/msahid-cse/smart_toll_system" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/msahid-cse/smart_toll_system" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart TOll System: Smart Solution.</h3>
+                            <p>This is the web based Smart Toll System. Technologies Used, Frontend: HTML, CSS, JavaScript for building the user interface. Backend: PHP for server-side scripting and handling logic. Database: MySQL for data storage and management.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://www.posist.com/restaurant-times/wp-content/uploads/2018/06/Restaurant-Management-Systems-Run-Multiple-Outlets-1.jpg" alt="A Restaurant Management System">
+                            <div class="project-links">
+                                <a href="https://github.com/msahid-cse/Restaurant-Management-System" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/msahid-cse/Restaurant-Management-System" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>A Restaurant Management System</h3>
+                            <p>A Restaurant Management System developed using Django, HTML, CSS, JavaScript, and MongoDB. This web application helps restaurants manage orders, track inventory, handle reservations, and generate reports efficiently. It includes user authentication, an interactive dashboard, and real-time updates for smooth operations.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2 class="section-title">Latest <span>Articles</span></h2>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://www.blogtyrant.com/wp-content/uploads/2017/02/how-to-write-a-good-blog-post.png" alt="Blog Post 1">
+                            <div class="blog-date">
+                                <span class="day">15</span>
+                                <span class="month">Jun</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> Web Development</span>
+                                <span><i class="fas fa-comment"></i> 5 Comments</span>
+                            </div>                            <h3><a href="blog/posts/1.html">The Future of Web Development in 2023</a></h3>
+                            <p>Exploring the latest trends and technologies shaping the future of web development, from WebAssembly to AI integration.</p>
+                            <a href="blog/posts/1.html" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://www.blogtyrant.com/wp-content/uploads/2017/02/how-to-write-a-good-blog-post.png" alt="Blog Post 2">
+                            <div class="blog-date">
+                                <span class="day">02</span>
+                                <span class="month">May</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> UI/UX</span>
+                                <span><i class="fas fa-comment"></i> 3 Comments</span>
+                            </div>                            <h3><a href="blog/posts/2.html">Designing for the Metaverse</a></h3>
+                            <p>How spatial design principles are changing the way we think about user interfaces in virtual environments.</p>
+                            <a href="blog/posts/2.html" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://www.blogtyrant.com/wp-content/uploads/2017/02/how-to-write-a-good-blog-post.png" alt="Blog Post 3">
+                            <div class="blog-date">
+                                <span class="day">18</span>
+                                <span class="month">Apr</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> JavaScript</span>
+                                <span><i class="fas fa-comment"></i> 7 Comments</span>
+                            </div>                            <h3><a href="blog/posts/3.html">Advanced JavaScript Patterns</a></h3>
+                            <p>Deep dive into modern JavaScript patterns that can help you write more maintainable and efficient code.</p>
+                            <a href="blog/posts/3.html" class="blog-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="blog-cta">
+                    <a href="blog/index.html" class="btn btn-primary">View All Articles</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2 class="section-title">My <span>Resume</span></h2>
+                <div class="resume-content">
+                    <div class="resume-download">
+                        <img src="https://static.jobscan.co/blog/uploads/How-to-write-a-resume.jpg" alt="Resume Preview">
+                        <a href="https://drive.google.com/file/d/1zDYV4yPay-6tTFEDuN6APeX_VshoA7fC/view?usp=sharing" class="btn btn-primary">Download Resume</a>
+                    </div>
+                    <div class="resume-skills">
+                        <h3>Key Skills</h3>
+                        <ul>
+                            <li>Frontend Development (React, Tailwind CSS)</li>
+                            <li>Backend Development (Node.js : Express)</li>
+                            <li>Database Designing (MongoDB, MySQL)</li>
+                            <li>Responsive Web Design</li>
+                            <li>Data Analyst</li>
+                            <li>Performance Optimization</li>
+                        </ul>
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>B.Sc. in Computer Science and Engineering</h4>
+                            <p>Green University of Bangladesh | 2022 - Running</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>msahid.cse@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <h4>Phone</h4>
+                            <p>+8801407531529</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location</h4>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/msahid-cse"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/msahid-cse/"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">MD. <span>SAHID</span></div>
+                    <p>© 2025 All Rights Reserved</p>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <a href="#home" class="back-to-top" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
