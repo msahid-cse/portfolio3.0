@@ -184,7 +184,8 @@
 }
 
 [data-theme="light"] .blog-header h1 {
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
+    color: #0a0a1a;
 }
 
 [data-theme="light"] .blog-header p {
